@@ -37,7 +37,7 @@ Register No: 212221230070
 import cv2
 
 # Load the image, Convert to grayscale and remove noise
-i=cv2.imread('land.jpeg',-1)
+i=cv2.imread('build.jpg',-1)
 gray=cv2.cvtColor(i,cv2.COLOR_BGR2GRAY)
 img = cv2.GaussianBlur(gray,(3,3),0)
 
@@ -74,19 +74,23 @@ cv2.destroyAllWindows()
 ```
 ## Output:
 ### SOBEL EDGE DETECTOR
-![Screenshot (835)](https://github.com/JEEVAABI/EDGEDETECTION/assets/93427098/bc95f9aa-0e48-4b9b-9797-ef37aff32e6b)
-![Screenshot (834)](https://github.com/JEEVAABI/EDGEDETECTION/assets/93427098/dce2a796-9ef1-4b82-bf93-7d7c748d1f9f)
-![Screenshot (833)](https://github.com/JEEVAABI/EDGEDETECTION/assets/93427098/05b6d66f-eb1d-4c4b-9a79-c07e63e60a99)
+![image](https://github.com/user-attachments/assets/d579e907-fa2c-4899-a8f0-362e3fb99d05)
+
+![image](https://github.com/user-attachments/assets/acc4700c-cb4a-43c8-b8b1-154fd66293be)
+
+![image](https://github.com/user-attachments/assets/f8cf8e7f-3f2a-44da-b1e3-e6b3a2fc7ab2)
+
 
 
 
 ### LAPLACIAN EDGE DETECTOR
-![Screenshot (836)](https://github.com/JEEVAABI/EDGEDETECTION/assets/93427098/5b9479a2-264a-4cd8-be92-72ddd3b07667)
+![image](https://github.com/user-attachments/assets/fd965475-9e2a-43c3-888e-319bff0433ea)
 
 
 
 ### CANNY EDGE DETECTOR
-![Screenshot (837)](https://github.com/JEEVAABI/EDGEDETECTION/assets/93427098/3b5142d1-910c-4248-8aa4-8f36bd5439c1)
+![image](https://github.com/user-attachments/assets/b444f3a9-df84-4301-9175-b8d0149da7f4)
+
 
 
 ## Result:
